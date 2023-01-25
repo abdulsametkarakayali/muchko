@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 8000
 const student = require('./routes/student');
 const homework = require('./routes/homework');
 const lesson = require('./routes/lesson');
+const index = require('./routes/index');
 
 const app = express();
 
