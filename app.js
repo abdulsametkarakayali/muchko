@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-//app.use('/', index);
+app.use('/', index);
 app.use('/api/student', student);
 app.use('/api/lesson', lesson);
 app.use('/api/homework', homework);
