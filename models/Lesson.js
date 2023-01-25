@@ -5,7 +5,8 @@ const LessonSchema = new Schema({
 	lessonName: {
 		type: String,
 		maxlength: 60,
-		minlength: 2
+		minlength: 2,
+		required: true
 	}
 });
 

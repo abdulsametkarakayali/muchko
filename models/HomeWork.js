@@ -8,7 +8,8 @@ const HomeWorkSchema = new Schema({
 			type: String,
 			required:  [true, '`{PATH}` alanı zorunludur.'],
 			maxlength: [500, '`{PATH}` alanı (`{VALUE}`), ({MAXLENGTH}) karakterden küçük olmalıdır '],
-			minlength: [3, '`{PATH}` alanı (`{VALUE}`), ({MINLENGTH}) karakterden büyük olmalıdır.']
+			minlength: [3, '`{PATH}` alanı (`{VALUE}`), ({MINLENGTH}) karakterden büyük olmalıdır.'],
+            required: true
     },
     createdAt: {
         type: Date,
